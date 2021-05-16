@@ -36,6 +36,12 @@ body {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .main {
+    background: url("../img/bg_main_800.jpg");
+  }
+}
+
 .main__container {
   margin: 0 auto;
   display: -webkit-box;
@@ -367,6 +373,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .choose {
+    background: url("../img/bg_choose_800.jpg");
+  }
+}
+
 .choose__container {
   margin: 0 auto;
   display: -webkit-box;
@@ -593,8 +605,20 @@ body {
   background: url(../img/bg_travel1.jpg);
 }
 
+@media (max-width: 768px) {
+  .travel__first {
+    background: url("../img/bg_travel1_800.jpg");
+  }
+}
+
 .travel__second {
   background: url(../img/bg_travel2.jpg);
+}
+
+@media (max-width: 768px) {
+  .travel__second {
+    background: url("../img/bg_travel2_800.jpg");
+  }
 }
 
 .travel__content {
@@ -633,6 +657,12 @@ body {
   background: url(../img/bg_feedback.jpg);
   text-align: center;
   padding: 7em 1em 12.5em;
+}
+
+@media (max-width: 768px) {
+  .feedback {
+    background: url("../img/bg_feedback_800.jpg");
+  }
 }
 
 .feedback__content {
