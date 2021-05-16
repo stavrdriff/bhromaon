@@ -271,7 +271,7 @@ body {
 
 @media (max-width: 900px) {
   .nav__list {
-    padding: 4% 2%;
+    padding: 30px 2%;
     position: absolute;
     left: 0;
     right: 0;
