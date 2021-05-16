@@ -361,6 +361,12 @@ body {
   padding: 20px;
 }
 
+@media (max-width: 900px) {
+  .choose {
+    padding: 60px 20px 20px;
+  }
+}
+
 .choose__container {
   margin: 0 auto;
   display: -webkit-box;
