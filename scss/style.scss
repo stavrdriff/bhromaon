@@ -33,6 +33,9 @@ body {
    @media (max-width: 768px) {
       background: url("../img/bg_main_800.jpg");
    }
+   @media (max-width: 450px) {
+      background: url("../img/bg_main_500.jpg");
+   }
    &__container {
       margin: 0 auto;
       display: flex;
@@ -274,6 +277,9 @@ body {
    @media (max-width: 768px) {
       background: url("../img/bg_choose_800.jpg");
    }
+   @media (max-width: 450px) {
+      background: url("../img/bg_choose_500.jpg");
+   }
    &__container {
       margin: 0 auto;
       display: flex;
@@ -421,11 +427,17 @@ body {
       @media (max-width: 768px) {
          background: url("../img/bg_travel1_800.jpg");
       }
+      @media (max-width: 450px) {
+         background: url("../img/bg_travel1_500.jpg");
+      }
    }
    &__second {
       background: url(../img/bg_travel2.jpg);
       @media (max-width: 768px) {
          background: url("../img/bg_travel2_800.jpg");
+      }
+      @media (max-width: 450px) {
+         background: url("../img/bg_travel2_500.jpg");
       }
    }
    &__content {
@@ -462,6 +474,9 @@ body {
    padding: 7em 1em 12.5em;
    @media (max-width: 768px) {
       background: url("../img/bg_feedback_800.jpg");
+   }
+   @media (max-width: 450px) {
+      background: url("../img/bg_feedback_500.jpg");
    }
    &__content {
       margin-top: 6em;
