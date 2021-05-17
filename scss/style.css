@@ -764,6 +764,10 @@ body {
   color: #5474fd;
 }
 
+blockquote {
+  margin: 0;
+}
+
 .main,
 .choose,
 .travel,
